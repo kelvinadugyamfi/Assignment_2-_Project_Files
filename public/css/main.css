@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid; */
+}
+
+#logo{
+    display: inline-block;
+    margin: 45px;
+}
+
+
+#menu{
+    display: flex;
+    float:right;
+    list-style: none;
+    line-height: 40px;
+    margin: 45px;
+    padding: 5px;
+    width: 25%;
+}
+
+.menuitem{
+    width: 70%;
+    text-align: center;
+}
+
+#fstContainer{
+    position: relative;
+    height: 85vh;
+}
+
+
+#illustration-1{
+    display: inline-block;
+    width: 45%;
+    float: right;
+    height: 70vh;
+    margin-right: 5%;
+}
+
+#fsttxt{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    margin-top:10%;
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;    
+}
+
+#sndtxt{
+    display: block;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#input{
+    display: inline-block;
+    padding: 15px;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 30px;  
+    border-radius: 6px; 
+}
+
+#btn{
+    display: inline-block;
+    padding: 15px;
+    width: 12%;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-color: #2f65f9;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#sndContainer{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 115vh;
+    background-color: #f9f8fe;
+}
+
+
+#bg-curve-desktop{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+#illustration-2{
+    width: 45%;
+    height: 60vh;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;  
+    background-color: transparent;
+}
+
+#trdtxt{
+    display: block;
+    width: 45%;
+    margin-top:5%;
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: justify;
+    background-color: transparent;
+}
+
+#frthtxt{
+    display: block;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 35px;
+    text-align: justify;
+    background-color: transparent;
+}
+
+#fthtxt{
+    display: block;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 25px;
+    text-align: justify;
+    background-color: transparent;
+}
+
+#seeLink{
+    display: inline-block;
+    width: 12%;
+    margin: 20px;
+    margin-left: 5%;
+    text-align: justify;
+    color: #81b3ab;
+    background-color: transparent;
+}
+
+#inContainer{
+    position: relative;
+    display: block;
+    width: 25%;
+    height: 30vh;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px rgb(164, 162, 162);
+    background-color: transparent;
+}
+
+#icon-quotes {
+    display: block;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+  
+}
+
+#sixtxt{
+    display: block;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: transparent;
+
+}
+
+#trdContainer{
+    display: block;
+    position: relative;
+    height: 50vh;
+    background-color:#575989 ;
+}
+
+#txt{
+    display: inline-block;
+    margin-top: 7%;
+    width: 59%;
+    background-color: #575989;
+}
+
+#snthtxt{
+    display: block;
+    width: 45%;
+    margin-left: 7%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    background-color: transparent;
+    color: white;
+}
+
+#ethtxt{
+    display: block;
+    width: 70%;
+    margin-left: 7%;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+#inputCont{
+    display: inline-block;
+    width: 40%;
+    height: 30vh;
+    margin-top: 5%;
+    float: right;
+    background-color: #575989;
+}
+
+
+#sndInput{
+    display: block;
+    padding: 18px;
+    width: 80%;
+    margin: 20px;
+    margin-top: 20px;  
+    border-radius: 6px;
+}
+
+
+#sndBtn{
+    display:block;
+    padding: 15px;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-color: #2f65f9;
+    border-radius: 6px;
+    text-decoration: none; 
+}
+
+#lastContainer{
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    background-color:#07043b ;
+}
+
+.footlist{
+    list-style: none;
+    padding: 10px;
+    /* margin: 10px; */
+    display: block;
+    background-color: #07043b;
+}
+
+#footerone{
+display:block;
+background-color: #07043b;
+position: relative;
+top: 25%;
+width: 15%;
+margin-left: 5%;
+border-color: pink;
+background-color: transparent;
+}
+
+#icon-phone{
+background-color: transparent;
+display:inline-block;
+margin: 10px;
+
+}
+
+#icon-email{
+    background-color: transparent;
+    display:inline-block;
+    margin: 10px;
+}
+
+#footertwo{
+    display:inline-block;
+    position: relative;
+    margin-left: 35%;
+    width: 10%;
+    background-color:#07043b;
+}
+
+#footerthree{
+    display: inline-block;
+    position:absolute;
+    margin-left: 10%;
+    width: 10%;
+    background-color: #07043b;
+}
+
+.footlist2{
+    list-style: none;
+    display: block;
+    padding: 10px;
+    /* margin: 10px; */
+    background-color: #07043b;
+}
+
+.links{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #07043b;
+    color: white;
+    width: 100%;
+}
