@@ -26,6 +26,12 @@
     text-align: center;
 }
 
+.menuLink{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
 #fstContainer{
     position: relative;
     height: 85vh;
